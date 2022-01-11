@@ -48,7 +48,7 @@ If this section grows too long, you may want to split it off into a separate fil
 <h2> Credits </h2>
 <b>Content</b>
 
-<br<
+<br>
 <b>Media</b>
 The photos used in this site were obtained from ...
 <br>
