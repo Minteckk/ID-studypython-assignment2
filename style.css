@@ -11,6 +11,11 @@ html body {
     user-select: none;
   }
 
+h1 {
+    text-align: center;
+}
 
-
+p {
+    text-align: center;
+}
   
