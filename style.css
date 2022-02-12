@@ -164,20 +164,33 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 145px;
+  width: 200px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
 
-.sidebar a {
+.sidebar a, .dropdown-btn {
   display: block;
   color: black;
-  padding: 6px;
+  padding: 16px;
   text-decoration: none;
 }
  
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 .sidebar a.active {
   background-color: #04AA6D;
   color: white;
@@ -194,15 +207,6 @@ div.content {
   height: 1000px;
 }
 
-@media screen and (max-width: 1200px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -283,4 +287,17 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
 
