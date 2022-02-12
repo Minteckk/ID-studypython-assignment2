@@ -164,7 +164,7 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 180px;
+  width: 145px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -174,7 +174,7 @@ body {
 .sidebar a {
   display: block;
   color: black;
-  padding: 12px;
+  padding: 6px;
   text-decoration: none;
 }
  
@@ -192,6 +192,16 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 700px) {
