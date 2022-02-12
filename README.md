@@ -2,7 +2,7 @@
 <p>This e-learning website is created to allows learners to learn and study python in a fun and interactive ways with interactivity and gamification concepts.</p>
 <p>This e-learning is targeted for anyone who wants how to code and programming in Python language.</p>
 <p>The website makes use of badges, points and scoreboards to spark the learner's interests. </p>
-<p>There's also a quiz after each examples to test the learner's understanding.</p>
+<p>There's also a quiz after each lesson to test the learner's understanding.</p>
 <p>There's also an embed IDE for learners to try out the codes and experiment it.</p>
 
 <h2> Design Process </h2>
@@ -22,16 +22,18 @@ This section is also where you would share links to any wireframes, mockups, dia
 It is a library used to animate and fade in the content on scroll.</p>  
 <p>Feature 2 - Responsive Web Design :
 Project is responsive in both web and mobile view. </p>
+<p> Feature 3 - Quizzes</p> 
+<p> Quiz is available after learner/students completes the lesson.</p>
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h2> Features Left to Implement </h2>
 <p>Typed.js</p>
-<p>Scoreboard</p>
-<p>Points</p>
-<p>Badges</p>
-<p>Quiz</p>
-<p>Lottie Animation</p>
+<p>Scoreboard - In progress</p>
+<p>Points -  Planning to be obtained from RestDB api</p>
+<p>Badges - to be obtained from RestDB api</p>
+<p>Quiz - In progress </p>
+<p>Lottie Animation - In progress</p>
 
 <h2>Technologies Used </h2>
 <p>In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.</p>
@@ -50,22 +52,87 @@ In addition, you may also use this section to discuss plans for additional featu
 <h2> Testing </h2>
 <p> For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as: </p>
 <p>
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+Sign Up form:
+</p>
+<p>
+Go to the home page and click on Sign up now </p>
+<p>Try to submit the empty form and verify that an error message about the required fields appears</p>
+<p>Try to submit the form with an invalid email address and verify that a relevant error message appears</p>
+<br>
+<p> Resize the Sign Up Modal </p>
+<p> Try to resize into a size less than 500px and verify the model responds to the changes </p>
+<p> verify the model is responsiveness in both mobile and desktop view </p>
+<br>
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<p> On Laptop: </p>
+<p> This project's content is display two to three column using flexbox.</p>
+<p> The navigation bar is shown. </p>
+<p> On mobile:</p>
+<p>This project's content is display one column and is responsive</p> 
+<p> The navigation bar is in the form of a burger menu </p>
 <p>
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+<h2> Team Contributions </h2>
+<P>Min Teck:
+  <p> Role: </p>
+  <p> Website Designer </p>
+  <p> Front-end Developer </p>
+  <p> Task: </p>
+  <p> Designed the website logo </p>
+  <p> Designed Sign up button in home page </p>
+  <p> getting animations for home page from Lottie </p>
+  <p> Created sign up modal for users to sign up </p>
+  <p> Come up with the learning objectives </p>
+  <p> Lesson Prepared: </p>
+  <p> Introduction </p>
+  <p> Variables </p>
+  <p> Casting </p>
+  <p> Strings </p>
+  <p> Boolean </p>
+  <p> While Loops </p> 
+  <p> For Loops </p>
+  <p> Functions </p>
+  <p> Scope </p>
+  <p> File Handling </p>
+  <p> File Write </p>
+<P>
+<br>
+  <P>Jerome:</p>
+  <p> Role : </p>
+  <p> Second Front-end Developer </p>
+  <p> Task : </p>
+  <p> Lesson Prepared: </p>
+  <p> Data Types </p>
+  <p> Numbers </p>
+  <p> Operators </p>
+  <p> Lists </p>
+  <p> Tuples </p>
+  <p> Dictionaries </p>
+  <p> If Else </p>
+  <p> Arrays </p>
+  <p> Python Modules </p>
+  <p> User Input </p>
+  <p> Python Maths </p>
+  
 <h2> Credits </h2>
 <p>Content</p>
 <br>
+  <p> Research </p>
+  <p>https://www.elucidat.com/blog/gamification-in-elearning-examples/</p>
+  <p>https://www.trueeducationpartnerships.com/schools/gamification-in-education/</p>
+  <p>https://byjus.com/question-answer/</p>
+  <p>https://clevertap.com/blog/best-examples-of-app-gamification/</p>
+  <p>https://blog.getsocial.im/is-gamification-the-only-way-for-apps-to-survive/</p>
+  <p>https://www.interaction-design.org/literature/topics/gamification</p>
+<br>
 <p>Media</p>
-<p>The photos used in this site were obtained from ... </p>
+ <p> we customized the background on my homepage at SVGBackgrounds.com. </p>
+<p>The background pattern and image used in this site were obtained from https://www.svgbackgrounds.com/. </p>
 <br>
 <p> Acknowledgements </p>
-AOS Library : https://github.com/michalsnik/aos
+<p> AOS Library : https://github.com/michalsnik/aos </p>
+<p> W3School Sidebar Responsive Tutorial : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive </p>
+<p> W3School Sign-up modal Tutorial : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form_modal </p>
+  <p> Embed IDE : https://www.jdoodle.com/ </p>
