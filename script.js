@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     
     const APIKEY = "61fe3faf6a791555010217e6";
@@ -68,4 +69,3 @@ $.ajax(settings).done(function (response) {
   console.log(response);
 });
 })
-
