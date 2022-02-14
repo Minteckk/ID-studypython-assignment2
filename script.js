@@ -35,6 +35,43 @@ function myFunction() {
     location.replace("tutorial.html")
   }
 
+function onHover()
+{
+  document.getElementById("tryout").style.backgroundColor = "yellow";
+  document.getElementById("linkedin1").style.backgroundColor = "yellow";
+  document.getElementById("readmore").style.backgroundColor = "yellow";
+}
+
+function LinkedinBtn()
+{
+  document.getElementById("linkedin2").style.backgroundColor = "yellow"
+}
+
+function linktoPython() {
+  window.open("https://www.python.org/",'_blank')
+}
+
+function BacktotopBtn() {
+  document.getElementById("top").style.backgroundColor = "yellow";
+}
+
+function OutToTop() {
+  document.getElementById("top").style.backgroundColor = "lightgreen";
+}
+
+function mouseOut()
+{
+  document.getElementById("tryout").style.backgroundColor = "lightgreen";
+  document.getElementById("linkedin1").style.backgroundColor = "lightgreen";
+  document.getElementById("readmore").style.backgroundColor = "lightgreen";
+}
+
+function LinkedinOut()
+{
+  document.getElementById("linkedin2").style.backgroundColor = "lightgreen";
+}
+
+
 $(document).ready(function () {
     
     const APIKEY = "61fe3faf6a791555010217e6";
