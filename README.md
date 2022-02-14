@@ -24,11 +24,12 @@ It is a library used to animate and fade in the content on scroll.</p>
 Project is responsive in both web and mobile view. </p>
 <p> Feature 3 - Quizzes</p> 
 <p> Quiz is available after learner/students completes the lesson.</p>
+<p> Feature 4 - Typed.js <p>
+<p> Typing effects for welcome to StudyPython </p>
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h2> Features Left to Implement </h2>
-<p>Typed.js</p>
 <p>Scoreboard - In progress</p>
 <p>Points -  Planning to be obtained from RestDB api</p>
 <p>Badges - to be obtained from RestDB api</p>
@@ -118,6 +119,7 @@ If this section grows too long, you may want to split it off into a separate fil
   
 <h2> Credits </h2>
 <p>Content</p>
+  <p>Background image from : https://www.freepik.com/vectors/background </p>
 <br>
   <p> Research </p>
   <p>https://www.elucidat.com/blog/gamification-in-elearning-examples/</p>
@@ -135,4 +137,6 @@ If this section grows too long, you may want to split it off into a separate fil
 <p> AOS Library : https://github.com/michalsnik/aos </p>
 <p> W3School Sidebar Responsive Tutorial : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive </p>
 <p> W3School Sign-up modal Tutorial : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form_modal </p>
-  <p> Embed IDE : https://www.jdoodle.com/ </p>
+<p> Embed IDE : https://www.jdoodle.com/ </p>
+<p> Typed.js : https://github.com/mattboldt/typed.js/ </p>
+<p> Special Thanks to the creator of Typed.js: http://www.mattboldt.com/ </p>
