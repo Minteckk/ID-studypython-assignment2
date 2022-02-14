@@ -55,10 +55,19 @@
 </header>
 
 <section class="flex-container">
-  <section class="flex-item-left">
-  <h1>Welcome to StudyPython.</h1>
-  <p>Gamified Online Coding Platform.</p>
-</section>
+  <h1>
+    <span class="text-slider-items">
+      <section class="flex-item-left">
+      Welcome to StudyPython.
+      Gamified Online Coding Platform.
+    </section>
+    </span>
+  
+    <strong class="text-slider"></strong>
+    <!-- classes "text-slider" 
+    and "text-slider-items"
+    for typed.js script -->
+  </h1>
 </section>
 <section class="flex-container">
 <section class="flex-item-right">
@@ -69,16 +78,16 @@
 <section class="flex-item-left">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ehs7xawx.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-<p>More than 100 students have chosen StudyPython to learn Python.</p>
+<h1>More than 100 students have chosen StudyPython to learn Python.</h1>
   </section>
 <section class="flex-item-right">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2znxgjyt.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-<p>If you want to learn Python, you are in the right place.
-  Sign Up Now!!</p>
+<h1>If you want to learn Python, you are in the right place.
+  Sign Up Now!!</h1>
 </section>
 </section>
-  <section class="flex-item-left"><h2>Services we provide:</h2></section>
+  <section class="flex-item-left"><h1>Services we provide:</h1></section>
   <section class="flex-container">
   <section class="flex-item-left">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -88,10 +97,10 @@
 <section class="flex-item-right">
  <p>We provide you with tutorials to learn python.</p>
  <p>There's an integrated development environment for you to try out the codes.</p>
- <button onclick="myFunction()">Try out our tutorial</button>
+ <button class="btn" id="tryout" onclick="myFunction()" onmouseover="onHover()" onmouseout="mouseOut()"> Try out our tutorial</button>
 </section>
 </section>
-<h2>What is taught in this platform</h2>        
+<h1>What is taught in this platform</h1>        
 <section class="flex-container">
   <section class="flex-item-left">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -183,7 +192,7 @@
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
-        <h2>Meet the team behind of StudyPython</span></h2>
+        <h1>Meet the team behind of StudyPython</span></h1>
         <section class="flex-container">
         <p class="lead", data-aos="fade-in">
           <section class="card">
@@ -191,7 +200,7 @@
             <section class="flex-item-right"><h2>Ho Min Teck</h2></section>
             <section class="flex-item-left"><p class="title">StudyPython Website Designer and Front-end Developer </p></section>
             <section class="flex-item-right"><p>Ngee Ann Polytechnic</p></section>
-            <section class="flex-item-left"><p><a href="https://www.linkedin.com/in/min-teck-ho/" target="_blank"><button>Get in touch on LinkedIn</button></a></p></section>
+            <section class="flex-item-left"><p><a href="https://www.linkedin.com/in/min-teck-ho/" target="_blank"><button class="btn" id="linkedin1" onmouseover="onHover()" onmouseout="mouseOut()">Get in touch on LinkedIn</button></a></p></section>
           </section>
             
           <section class="flex-item-right">
@@ -200,7 +209,7 @@
               <section class="flex-item-right"><h2>Chong Jerome</h2></section>
               <section class="flex-item-left"><p class="title">StudyPython Second Front-end Developer</p></section>
               <section class="flex-item-right"><p>Ngee Ann Polytechnic</p></section>
-              <section class="flex-item-left"><p><a href="https://www.linkedin.com/"><button>Get in touch on LinkedIn</button></a></p></section>
+              <section class="flex-item-left"><p><a href="https://www.linkedin.com/"><button class="btn" id="linkedin2" onmouseover="LinkedinBtn()" onmouseout="LinkedinOut()">Get in touch on LinkedIn</button></a></p></section>
             </section>
           </section>
             </p>
@@ -230,23 +239,29 @@
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_j1oeaifz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
           <p>With Python, You can do data science and web development as well as AI and Machine Learning</p></section>
-      </section>        
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><button class="btn" id="readmore" onmouseover="onHover()" onmouseout="mouseOut()" onclick="linktoPython()">Read more from Offical Python site</button></a></section>
+      </section>    
+      <a href="index.html" class="btn" id="top" onmouseover="BacktotopBtn()" onmouseout="OutToTop()">Back To Top</a>    
   <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
 
   <!-- FOOTER -->
 <div class="container">
   <footer class="py-3-my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 text-muted">Tutorial</a></li>
-      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 text-muted">Leaderboard</a></li>
-      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; 2022 StudyPython, Ltd</p>
+    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
   </footer>
 </div>
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./typed.js-master/lib/typed.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     AOS.init();
     AOS.init({
@@ -269,6 +284,18 @@
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
-  </script>  
+  </script> 
+<script>
+    if ($(".text-slider").length == 1) {
+        var typed_strings = $(".text-slider-items").text();
+        var typed = new Typed(".text-slider", {
+            strings: typed_strings.split(", "),
+            typeSpeed: 50,
+            loop: true,
+            backDelay: 900,
+            backSpeed: 30,
+        });
+    }
+</script> 
   </body>
 </html>
