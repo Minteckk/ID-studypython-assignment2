@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>StudyPython</title>
+    <!-- Bootstrap core CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="bootstrap-5.1.3-dist/navbars/navbar.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<header>
+  <section class="flex-container">
+  <nav class="navbar navbar-expand-md navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="artworks/logo/logo.jpg" alt="logo" style="width:60px;"></a>
+      <a class="navbar-brand" href="index.html">StudyPython</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tutorial.html">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="leaderboard.html">Leaderboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+</header>
+
+<section class="flex-container">
+  <section class="flex-item-left">
+  <h1>StudyPython</h1>
+  <p>StudyPython is established in 2022 as a platform for learning Python.</p>
+  <h1>if you have any Question or queries:</h1>
+  <h1>please feel free to contact us through the contact form below </h1>
+</section>
+</section>
+<section class="flex-container">
+  <section class="flex-item-left"><p>What language do you want to learn next?</p></section>
+  <section class="flex-item-right"><a href="Language_Suggestion_survey/index.html" target="_blank"><button>Language Suggestion</button></a></section>
+</section>
+<section class="dcontainer">
+<h1>Contact Form</h1>
+<form onsubmit="return validateForm()" name="contactform" action="mailto:s10228079@connect.np.edu.sg">
+  <section class="row">
+      <section class="col-25">
+          <label for="name">Name:</label>
+  </section>
+      <section class="col-75">
+          <input type="text" id="name" name="Name" placeholder="Please enter your name." onfocus="infocus(this)" onfocusout="outfocus()" required>
+  </section>
+</section>
+  <section class="row">
+  <section class="col-25">
+      <label for="emailAddr">Email Address:</label>
+</section>
+  <section class="col-75">
+      <input type="text" id="emailAddr" name="emailAddress" placeholder="Please enter your email." onfocus="infocus(this)" onfocusout="outfocusEmail()"  required>
+</section>
+</section>
+  <section class="row">
+  <section class="col-25">
+      <label for="contact">Contact Number:</label>
+</section>
+  <section class="col-75">
+      <input type="text" id="contact" name="ContactNo" placeholder="Please enter your contact number." onfocus="infocus(this)" onfocusout="outfocusContact()" required>
+</section>
+</section>
+  <section class="row">
+  <section class="col-25">
+      <label for="enquiries">Feedback:</label>
+</section>
+  <section class="col-75">
+      <textarea id="enquiries" name="enquiries" placeholder="Please fill in any feedback you have" style="height: 200px" onfocus="infocus(this)" onfocusout="outfocustextarea()"></textarea>
+</section>
+</section>
+<br>
+  <section class="row">
+      <input name = "submit" type="submit" value="Submit" class="button"  id = "submit" onSubmit = "validateForm(),FormAcknowledgement()" onfocus="infocus(this)">
+</section>
+</form>
+</section>
+
+<a href='https://www.freepik.com/vectors/background' target="_blank">Background vector created by freepik - www.freepik.com</a>
+  <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
+
+  <!-- FOOTER -->
+<div class="container">
+  <footer>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
+    </ul>
+    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
+  </footer>
+</div>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+});
+  </script>  
+  </body>
+</html>
