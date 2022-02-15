@@ -19,7 +19,7 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="Checkpoint 2/script.js"></script>
+    <script src="script.js"></script>
     <link href="bootstrap-5.1.3-dist/navbars/navbar.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -57,9 +57,7 @@
     <section class="flex-item-left"><p>Specify a Variable Type</p></section>
     <section class="flex-item-right"><p>There may be times when you want to specify a type on to a variable. </p></section>
     <section class="flex-item-left"><p>This can be done with casting. </p></section>
-    <section class="flex-item-right"><p>Python is an object-orientated language</p></section>
-    <section class="flex=item-left"><p>as such it uses classes to define data types, 
-      including its primitive types</p></section>
+    <section class="flex-item-right"><button class="btn" id="readmore2" onclick="castingText()">Read More</button><p id = "text2"></p></section>
   </section>
     <h1>Casting</h1>
     <section class="flex-container">
@@ -75,7 +73,9 @@
   <section class="flex-item-left"><p><img src="images/casting.JPG" alt="syntax" style="width: 100%;"></p></section>
   </section>
   <section class="flex-container">
-    <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+    <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" 
+      id="trybtn20" onmouseover="Variablebtn15()" onmouseout="OutVariablebtn15()">
+      Try it out yourself </a></section>
     </section>
   <section class="flex-container">
     <section class="flex-item-left"><p>Some Examples: float</p></section>
@@ -84,7 +84,9 @@
     <section class="flex-item-left"><p><img src="images/casting_floar.JPG" alt="syntax" style="width: 100%;"></p></section>
     </section>
   <section class="flex-container">
-    <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+    <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn"
+      id="trybtn21" onmouseover="Variablebtn16()" onmouseout="OutVariablebtn16()">
+      Try it out yourself </a></section>
     </section>
   <section class="flex-container">
       <section class="flex-item-left"><p>Some Examples: string</p></section>
@@ -93,7 +95,9 @@
     <section class="flex-item-left"><p><img src="images/casting_string.JPG" alt="syntax" style="width: 100%;"></p></section>
     </section>
     <section class="flex-container">
-      <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+      <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn"
+        id="trybtn22" onmouseover="Variablebtn17()" onmouseout="OutVariablebtn17()">
+        Try it out yourself </a></section>
       </section>
       <h1>End of Lesson</h1>
       <section class="flex-container">
@@ -101,7 +105,8 @@
         <section class="flex-item-right"><p>Let's apply your knowledge by attempting the quiz </p></section>
       </section>
       <section class="flex-container">
-        <section class="flex-item-left"><a href="Casting Quiz/index.html" target="_blank"><button>Quiz Time</button></a></section>
+        <section class="flex-item-left"><a href="Casting-Quiz/index.html" target="_blank" class="btn" id="quiz3" onmouseover="Quizbtn3()" onmouseout="Quizmouseout3()">
+          Quiz Time</a></section>
         </section>
   <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
 
@@ -109,12 +114,14 @@
 <div class="container">
   <footer class="py-3-my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 text-muted">Tutorial</a></li>
-      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 text-muted">Leaderboard</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; 2022 StudyPython, Ltd</p>
+    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
   </footer>
+</div>
 </div>
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

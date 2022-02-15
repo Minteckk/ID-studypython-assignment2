@@ -64,11 +64,11 @@
 </section>
 <section class="flex-container">
   <section class="flex-item-left"><p>What language do you want to learn next?</p></section>
-  <section class="flex-item-right"><a href="Language_Suggestion_survey/index.html" target="_blank"><button>Language Suggestion</button></a></section>
+  <section class="flex-item-right"><button class="btn" onclick="linktoSurvey()">Language Suggestion</button></section>
 </section>
 <section class="dcontainer">
-<h1>Contact Form</h1>
-<form onsubmit="return validateForm()" name="contactform" action="mailto:s10228079@connect.np.edu.sg">
+<h2>Contact Form</h2>
+<form onsubmit="return validateForm()" name="contactform" action="mailto:s10228079@connect.np.edu.sg" method="post">
   <section class="row">
       <section class="col-25">
           <label for="name">Name:</label>
@@ -103,7 +103,7 @@
 </section>
 <br>
   <section class="row">
-      <input name = "submit" type="submit" value="Submit" class="button"  id = "submit" onSubmit = "validateForm(),FormAcknowledgement()" onfocus="infocus(this)">
+      <input name = "submit" type="submit" value="Submit" class="btn"  id = "submit" onSubmit = "validateForm(),FormAcknowledgement()" onfocus="infocus(this)">
 </section>
 </form>
 </section>

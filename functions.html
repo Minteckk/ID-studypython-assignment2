@@ -57,8 +57,7 @@
   </section>
   <section class="flex-container">
     <section class="flex-item-right"><p>A function is a block of code which only runs when it is called.</p></section>
-    <section class="flex-item-left"><p>You can pass data, known as parameters, into a function.</p></section>
-    <section class="flex-item-right"><p>A function can return data as a result.</p></section>
+    <section class="flex-item-right"><button class="btn" id="readmore4" onclick="functionText()">Read More</button><p id = "text4"></p></section>
   </section>
   <section class="flex-container">
     <section class="flex-item-left"><p> Creating Functions
@@ -86,7 +85,8 @@
             <section class="flex-item-left"><img src="images/calling_function.JPG" alt="syntax" style="width: 100%;"></section>
             </section>
             <section class="flex-container">
-             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func1" onmouseover="functionbtn1()"  onmouseout="outfunctionbtn1()">
+              Try it out yourself</a></section>
              </section> 
 
         <h1>Arguments</h1>
@@ -95,7 +95,7 @@
          </section>
         </section>
         <section class="flex-container">
-            <section class="flex-item-right"><button>Read More</button></section>
+            <section class="flex-item-right"><button class="btn" id="readmore" onclick="displayText()">Read More</button><p id = "text"></p></section>
         </section>
         <section class="flex-container">
             <section class="flex-item-left"><p> Examples: 
@@ -127,7 +127,8 @@
                 <section class="flex-item-left"><img src="images/argument_requirement_function.JPG" alt="syntax" style="width: 100%;"></section>
                 </section>
             <section class="flex-container">
-             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func2" onmouseover="functionbtn2()" onmouseout="outfunctionbtn2()">
+              Try it out yourself</a></section>
              </section> 
              <section class="flex-container">
                 <section class="flex-item-left"><p> If you try to call the function with 1 or 3 arguments, you will get an error: 
@@ -141,7 +142,8 @@
                 <section class="flex-item-left"><img src="images/error_argument.JPG" alt="syntax" style="width: 100%;"></section>
                 </section>
                 <section class="flex-container">
-                 <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+                 <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func3" onmouseover="functionbtn3()" onmouseout="outfunctionbtn3()">
+                  Try it out yourself</a></section>
                  </section> 
                  <h1>Keyword Arguments</h1>
                  <section class="flex-container">
@@ -157,7 +159,8 @@
                     <section class="flex-item-left"><img src="images/keyword_arguments.JPG" alt="syntax" style="width: 100%;"></section>
                     </section>
                     <section class="flex-container">
-                     <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+                     <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func4" onmouseover="functionbtn4()" onmouseout="outfunctionbtn4()">
+                      Try it out yourself</a></section>
                      </section>
                      <h1>Default Parameter Value</h1>
                     <section class="flex-container">   
@@ -196,10 +199,11 @@
                            </p></section>
                          </section>
                         <section class="flex-container">
-                           <section class="flex-item-left"><img src="images/return value_function.JPG" alt="syntax" style="width: 100%;"></section>
+                           <section class="flex-item-left"><img src="images/return_value_function.JPG" alt="syntax" style="width: 100%;"></section>
                            </section>
                            <section class="flex-container">
-                            <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+                            <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func5" onmouseover=" functionbtn5()" onmouseout="outfunctionbtn5()">
+                            Try it out yourself</a></section>
                             </section>
                             <h1>The pass Statement</h1>
                            <section class="flex-container">   
@@ -214,7 +218,8 @@
                                <section class="flex-item-left"><img src="images/pass_statement.JPG" alt="syntax" style="width: 100%;"></section>
                                </section>
                                <section class="flex-container">
-                                <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank"><button>Try it out yourself </button></a></section>
+                                <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="func6" onmouseover=" functionbtn6()" onmouseout="outfunctionbtn6()">
+                                Try it out yourself</a></section>
                                 </section>
                                 
       <h1>End of Python Functions</h1>
@@ -222,7 +227,8 @@
         <section class="flex-item-left"><p>You have learned Functions in simple terms. Let's proceed on to Quiz.</p></section>
       </section>
       <section class="flex-container">
-        <section class="flex-item-right"><a href="Functions Quiz/index.html" target="_blank"><button>Quiz Time!</button></a></section>
+        <section class="flex-item-right"><a href="Functions-Quiz/index.html" target="_blank" class="btn" id="quiz8" onmouseover="Quizbtn8()" onmouseout="Quizmouseout8()">
+        Quiz Time!</a></section>
         </section>
   <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
 
@@ -230,12 +236,14 @@
 <div class="container">
   <footer class="py-3-my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 text-muted">Tutorial</a></li>
-      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 text-muted">Leaderboard</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; 2022 StudyPython, Ltd</p>
+    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
   </footer>
+</div>
 </div>
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
