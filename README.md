@@ -26,6 +26,8 @@ Project is responsive in both web and mobile view. </p>
 <p> Quiz is available after learner/students completes the lesson.</p>
 <p> Feature 4 - Typed.js <p>
 <p> Typing effects for welcome to StudyPython </p>
+<p> Feature 5 - Parallax Scrolling Effect </p>
+<p> Apply Parallax effects when scrolling </p>
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -140,3 +142,4 @@ If this section grows too long, you may want to split it off into a separate fil
 <p> Embed IDE : https://www.jdoodle.com/ </p>
 <p> Typed.js : https://github.com/mattboldt/typed.js/ </p>
 <p> Special Thanks to the creator of Typed.js: http://www.mattboldt.com/ </p>
+<p> normalize.css : https://necolas.github.io/normalize.css/8.0.1/normalize.css </p>
