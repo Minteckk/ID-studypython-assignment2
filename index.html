@@ -1,303 +1,343 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <title>StudyPython</title>
-    <!-- Bootstrap core CSS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    <link href="bootstrap-5.1.3-dist/navbars/navbar.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet" type="text/css">
-<link href="normalize.css" rel="stylesheet" type="text/css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>StudyPython</title>
+  <!-- Bootstrap core CSS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <link href="bootstrap-5.1.3-dist/navbars/navbar.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<header>
-  <section class="flex-container">
-  <nav class="navbar navbar-expand-md navbar-dark ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="artworks/logo/logo.jpg" alt="logo" style="width:60px;"></a>
-      <a class="navbar-brand" href="index.html">StudyPython</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tutorial.html">Tutorial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="leaderboard.html">Leaderboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</section>
-</header>
-<div class="parallax">
-<section class="flex-container">
-  
-  <h1>
-    <span class="text-slider-items">
-      Welcome to StudyPython.
-      Gamified Online Coding Platform.
-    </span>
-    
-    <strong class="text-slider"></strong>
-    <!-- classes "text-slider" 
+  <header>
+    <section class="flex-container">
+      <nav class="navbar navbar-expand-md navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="artworks/logo/logo.jpg" alt="logo" style="width:60px;"></a>
+          <a class="navbar-brand" href="index.html">StudyPython</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tutorial.html">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="leaderboard.html">Leaderboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+  <div class="parallax">
+    <section class="flex-container">
+
+      <h1>
+        <span class="text-slider-items">
+          Welcome to StudyPython.
+          Gamified Online Coding Platform.
+        </span>
+
+        <strong class="text-slider"></strong>
+        <!-- classes "text-slider" 
     and "text-slider-items"
     for typed.js script -->
-  </h1>
-</section>
-<section class="flex-container">
-<section class="flex-item-right">
-  <img src="artworks/signup_button.jpg" alt="signup-button" onclick="document.getElementById('SignupModal').style.display='block'" style="width: 300px;">
- </section>
- </section>
+      </h1>
+    </section>
+    <section class="flex-container">
+      <section class="flex-item-right">
+        <img src="artworks/signup_button.jpg" alt="signup-button"
+          onclick="document.getElementById('SignupModal').style.display='block'" style="width: 300px;">
+      </section>
+    </section>
 
-<section class="flex-container">
-<section class="flex-item-left">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ehs7xawx.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-<h2>More than 100 students have chosen StudyPython to learn Python.</h2>
-  </section>
-<section class="flex-item-right">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2znxgjyt.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-<h2>If you want to learn Python, you are in the right place.
-  Sign Up Now!!</h2>
-</section>
-</section>
-  <section class="flex-item-left"><h1>Services we provide:</h1></section>
-  <section class="flex-container">
-  <section class="flex-item-left">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1"  style="width: 450px; height: 400px;" hover loop  autoplay></lottie-player>   
-  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
-</section>
-<section class="flex-item-right">
- <p>We provide you with tutorials to learn python.</p>
- <p>There's an integrated development environment for you to try out the codes.</p>
- <button class="btn" id="tryout" onclick="myFunction()" onmouseover="onHover()" onmouseout="mouseOut()"> Try out our tutorial</button>
-</section>
-</section>
-<h1>What is taught in this platform</h1>        
-<section class="flex-container">
-  <section class="flex-item-left">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_Fy9W8c.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-  </section>
-  <section class="flex-item-right">
-    <p>Here at StudyPython:</p>
-    <p>We teach Python to aspiring Python Developers and Programmers</p>
-  </section>
-</section>    
-  <div class="container marketing">
-    <div id="SignupModal" class="modal">
-      <span onclick="document.getElementById('SignupModal').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <form class="modal-content" action="signup_success.html" method="post">
-        <div class="container">
-          <h2> Sign Up</h2>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-          <label for="emailAddr"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" id="emailAddr" onfocus="infocus(this)" onfocusout="outfocusEmail()" required>
-    
-          <label for="password"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" id="password" required onfocus="infocus(this)" onfocusout="outfocusPassword()">
-    
-          <label for="repeat-pw"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="repeat-pw" required onfocus="infocus(this)" onfocusout="outfocusrepPassword()">
-          
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
-        
-          <div class="clearfix">
-            <button type="button" onclick="document.getElementById('SignupModal').style.display='none'" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn" id="signbtn" onclick="SignUpSuccess()" onsubmit="successMessage()">Sign Up</button><p id = "text6"></p>
-          </div>
-          
-        </div>
-      </form>
-    </div>
-    <!-- Three columns of text below the carousel -->
-    <h1 data-aos="fade-in" data-aos-offset="200">Why Choose StudyPython?</h1> 
-    <div class="row" data-aos="fade-in"  data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center" >
-      <section class="flex-container">
+    <section class="flex-container">
       <section class="flex-item-left">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_BCXrjU.json" background="transparent"  speed="1"  style="width: 450px; height: 250px;"  loop  autoplay></lottie-player>
-        <h1>Interactive and Engaging</h1>
-        <p>StudyPython allows learners to learn in an engaging way through gamification features such as badges, points</p>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ehs7xawx.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <h2>More than 100 students have chosen StudyPython to learn Python.</h2>
       </section>
       <section class="flex-item-right">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_xxyvtiab.json"  background="transparent"  speed="1"  style="width: 450px; height: 300px;"  loop  autoplay></lottie-player>
-      <h1>Easy to use</h1>
-      <p>StudyPython provides a easy way for you to navigate through different lesson contents.</p>
-     </section>
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2znxgjyt.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <h2>If you want to learn Python, you are in the right place.
+          Sign Up Now!!</h2>
       </section>
-    </div>
-
-    <hr class="featurette-divider">
-    <div class="row featurette" data-aos="fade-in" data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center">
-    <h1>Learning Objectives</h1>
-    <section class="flex-container">
-        <section class="flex-item-left"><p>After going through our tutorial, you should able to:</p></section>
-      </section>
-    <section class="flex-container">
-      <section class="flex-item-left"><p>Use IDE for Python programming </p></section>
-      <section class="flex-item-left"><p>Understand the concepts on Python</p></section>
     </section>
-    </div>
+    <section class="flex-item-left">
+      <h1>Services we provide:</h1>
+    </section>
+    <section class="flex-container">
+      <section class="flex-item-left">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json" background="transparent"
+          speed="1" style="width: 450px; height: 400px;" hover loop autoplay></lottie-player>
+        <script
+          src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+      </section>
+      <section class="flex-item-right">
+        <p>We provide you with tutorials to learn python.</p>
+        <p>There's an integrated development environment for you to try out the codes.</p>
+        <button class="btn" id="tryout" onclick="myFunction()" onmouseover="onHover()" onmouseout="mouseOut()"> Try out
+          our tutorial</button>
+      </section>
+    </section>
+    <h1>What is taught in this platform</h1>
+    <section class="flex-container">
+      <section class="flex-item-left">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_Fy9W8c.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </section>
+      <section class="flex-item-right">
+        <p>Here at StudyPython:</p>
+        <p>We teach Python to aspiring Python Developers and Programmers</p>
+      </section>
+    </section>
+    <div class="container marketing">
+      <div id="SignupModal" class="modal">
+        <span onclick="document.getElementById('SignupModal').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <form class="modal-content" action="signup_success.html" method="post">
+          <div class="container">
+            <h2> Sign Up</h2>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="emailAddr"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="emailAddr" onfocus="infocus(this)"
+              onfocusout="outfocusEmail()" required>
 
-    <hr class="featurette-divider">
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="password" required
+              onfocus="infocus(this)" onfocusout="outfocusPassword()">
 
-    <div class="row featurette" data-aos="fade-in" data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center">
+            <label for="repeat-pw"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="repeat-pw" required
+              onfocus="infocus(this)" onfocusout="outfocusrepPassword()">
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('SignupModal').style.display='none'"
+                class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn" id="signbtn" onclick="SignUpSuccess()"
+                onsubmit="linkToSuccess()">Sign Up</button>
+              <p id="text6"></p>
+            </div>
+
+          </div>
+        </form>
+      </div>
+      <!-- Three columns of text below the carousel -->
+      <h1 data-aos="fade-in" data-aos-offset="200">Why Choose StudyPython?</h1>
+      <div class="row" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
+        <section class="flex-container">
+          <section class="flex-item-left">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_BCXrjU.json" background="transparent"
+              speed="1" style="width: 450px; height: 250px;" loop autoplay></lottie-player>
+            <h1>Interactive and Engaging</h1>
+            <p>StudyPython allows learners to learn in an engaging way through gamification features such as badges,
+              points</p>
+          </section>
+          <section class="flex-item-right">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_xxyvtiab.json" background="transparent"
+              speed="1" style="width: 450px; height: 300px;" loop autoplay></lottie-player>
+            <h1>Easy to use</h1>
+            <p>StudyPython provides a easy way for you to navigate through different lesson contents.</p>
+          </section>
+        </section>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
+        <h1>Learning Objectives</h1>
+        <section class="flex-container">
+          <section class="flex-item-left">
+            <p>After going through our tutorial, you should able to:</p>
+          </section>
+        </section>
+        <section class="flex-container">
+          <section class="flex-item-left">
+            <p>Use IDE for Python programming </p>
+          </section>
+          <section class="flex-item-left">
+            <p>Understand the concepts on Python</p>
+          </section>
+        </section>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+        data-aos-anchor-placement="top-center">
         <h1>Meet the team behind of StudyPython</h1>
         <p class="lead" data-aos="fade-in"></p>
         <section class="flex-container">
           <section class="card">
-            <section class="flex-item-left"><img src="images/personalpic.jpg" alt="personal-image" style="width: 100%;"></section>
-            <section class="flex-item-right"><h2>Ho Min Teck</h2></section>
-            <section class="flex-item-left"><p class="title">StudyPython Website Designer and Front-end Developer </p></section>
-            <section class="flex-item-right"><p>Ngee Ann Polytechnic</p></section>
-            <section class="flex-item-left"><button class="btn" id="linkedin1" 
-            onmouseover="onHover()" onmouseout="mouseOut()" onclick="linktoLinkedIn()">Get in touch on Linkedin</button>
+            <section class="flex-item-left"><img src="images/personalpic.jpg" alt="personal-image" style="width: 100%;">
+            </section>
+            <section class="flex-item-right">
+              <h2>Ho Min Teck</h2>
+            </section>
+            <section class="flex-item-left">
+              <p class="title">StudyPython Website Designer and Front-end Developer </p>
+            </section>
+            <section class="flex-item-right">
+              <p>Ngee Ann Polytechnic</p>
+            </section>
+            <section class="flex-item-left"><button class="btn" id="linkedin1" onmouseover="onHover()"
+                onmouseout="mouseOut()" onclick="linktoLinkedIn()">Get in touch on Linkedin</button>
             </section>
           </section>
-            
+
           <section class="flex-item-right">
             <section class="card">
               <section class="flex-item-left"></section>
-              <section class="flex-item-right"><h2>Chong Jerome</h2></section>
-              <section class="flex-item-left"><p class="title">StudyPython Second Front-end Developer</p></section>
-              <section class="flex-item-right"><p>Ngee Ann Polytechnic</p></section>
-              <section class="flex-item-left"><button class="btn" id="linkedin2" onmouseover="LinkedinBtn()" onmouseout="LinkedinOut()" onclick="linktoLinkedInDev2()">Get in touch on LinkedIn</button></section>
+              <section class="flex-item-right">
+                <h2>Chong Jerome</h2>
+              </section>
+              <section class="flex-item-left">
+                <p class="title">StudyPython Second Front-end Developer</p>
+              </section>
+              <section class="flex-item-right">
+                <p>Ngee Ann Polytechnic</p>
+              </section>
+              <section class="flex-item-left"><button class="btn" id="linkedin2" onmouseover="LinkedinBtn()"
+                  onmouseout="LinkedinOut()" onclick="linktoLinkedInDev2()">Get in touch on LinkedIn</button></section>
             </section>
           </section>
         </section>
       </div>
-      </div>
-       
+    </div>
+
     <hr class="featurette-divider">
 
     <link href="bootstrap-5.1.3-dist/features/features.css" rel="stylesheet">
 
-        <h1>Why should you learn Python?</h1>
-        <section class="flex-container">
-        <section class="flex-item-left">
-            <h1>Reason 1</h1>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_iqcxim0l.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-            <p>It is a fast-growing and popular programming languages for begineers.</p></section>
-        <section class="flex-item-right">
-          <h1>Reason 2</h1>
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_nk7rih3w.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-          <p>Python is easy to read, write and understand and learn</p>
-        </section>
-        <section class="flex-item-left">
-          <h1>Reason 3</h1>
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_j1oeaifz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-          <p>With Python, You can do data science and web development as well as AI and Machine Learning</p></section>
+    <h1>Why should you learn Python?</h1>
+    <section class="flex-container">
+      <section class="flex-item-left">
+        <h1>Reason 1</h1>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_iqcxim0l.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <p>It is a fast-growing and popular programming languages for begineers.</p>
       </section>
-      <section class="flex-container">
-        <section class="flex-item-left"><button class="btn" id="readmore" onmouseover="onHover()" onmouseout="mouseOut()" onclick="linktoPython()">Read more from Offical Python site</button></section>
-      </section>    
-      <a href="index.html" class="btn" id="top" onmouseover="BacktotopBtn()" onmouseout="OutToTop()">Back To Top</a>    
-  <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
-</div>
+      <section class="flex-item-right">
+        <h1>Reason 2</h1>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_nk7rih3w.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <p>Python is easy to read, write and understand and learn</p>
+      </section>
+      <section class="flex-item-left">
+        <h1>Reason 3</h1>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_j1oeaifz.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <p>With Python, You can do data science and web development as well as AI and Machine Learning</p>
+      </section>
+    </section>
+    <section class="flex-container">
+      <section class="flex-item-left"><button class="btn" id="readmore" onmouseover="onHover()" onmouseout="mouseOut()"
+          onclick="linktoPython()">Read more from Offical Python site</button></section>
+    </section>
+    <a href="index.html" class="btn" id="top" onmouseover="BacktotopBtn()" onmouseout="OutToTop()">Back To Top</a>
+    <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
+  </div>
   <!-- FOOTER -->
-<div class="container">
-  <footer class="py-3-my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
-      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
-      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
-      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
-    </ul>
-    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
-  </footer>
-</div>
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./typed.js-master/lib/typed.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <div class="container">
+    <footer class="py-3-my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+        <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+        <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+        <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
+      </ul>
+      <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
+    </footer>
+  </div>
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./typed.js-master/lib/typed.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     AOS.init();
     AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-});
-  </script> 
-<script>
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+  <script>
     if ($(".text-slider").length == 1) {
-        var typed_strings = $(".text-slider-items").text();
-        var typed = new Typed(".text-slider", {
-            strings: typed_strings.split(", "),
-            typeSpeed: 50,
-            loop: true,
-            backDelay: 900,
-            backSpeed: 30,
-        });
+      var typed_strings = $(".text-slider-items").text();
+      var typed = new Typed(".text-slider", {
+        strings: typed_strings.split(", "),
+        typeSpeed: 50,
+        loop: true,
+        backDelay: 900,
+        backSpeed: 30,
+      });
     }
-</script> 
-  </body>
+  </script>
+</body>
+
 </html>
