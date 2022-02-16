@@ -539,5 +539,11 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-  background-color: gray;;
+  background-color: gray;
+}
+
+ol , li , .textlist {
+  text-align: left;
+  font-size: large;
+  color:orange;
 }
