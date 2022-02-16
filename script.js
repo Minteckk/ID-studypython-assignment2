@@ -1,3 +1,11 @@
+function w3_open() {
+  document.getElementById("Sidenav").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("Sidenav").style.display = "none";
+}
+
 // This function is used to let the current fields the user is typing in to get focused by styling the background colour.
 function infocus(x) {
   x.style.background = "orange";
@@ -41,12 +49,12 @@ function infocus(x) {
   }
 
 function myFunction() {
-    location.replace("tutorial.html")
+    location.replace("tutorial.html");
   }
 
 
   $("#signbtn").click(function(){
-    $(this).val("Success!")
+    $(this).val("Success!");
     $(this).animate({
         marginLeft: '-180px',
         width:"220px"
@@ -54,10 +62,10 @@ function myFunction() {
 });
 
 function SignUpSuccess() {
-  document.getElementById("signbtn").addEventListener("click",successMessage)
+  document.getElementById("signbtn").addEventListener("click",successMessage);
 }
 function successMessage(){
-  document.getElementById("text6").innerHTML = "Signup Success"
+  document.getElementById("text6").innerHTML = "Signup Success";
 }
 
   function displayText() {
@@ -85,7 +93,7 @@ function successMessage(){
   function functionText() {
     document.getElementById("readmore4").addEventListener("click", functionText);
     document.getElementById('text4').innerHTML = 
-    "You can pass data, known as parameters, into a function." + " A function can return data as a result." 
+    "You can pass data, known as parameters, into a function." + " A function can return data as a result." ;
   }
 
 
@@ -816,25 +824,25 @@ function Quizmouseout9()
 }
 function LinkedinBtn()
 {
-  document.getElementById("linkedin2").style.backgroundColor = "yellow"
+  document.getElementById("linkedin2").style.backgroundColor = "yellow";
 }
 
 function linktoPython() {
-  window.open("https://www.python.org/",'_blank')
+  window.open("https://www.python.org/",'_blank');
 }
 
 function linktoLinkedIn() {
-  window.open("https://www.linkedin.com/in/min-teck-ho/", '_blank')
+  window.open("https://www.linkedin.com/in/min-teck-ho/", '_blank');
 }
 
 function linktoLinkedInDev2()
 {
-  window.open("https://www.linkedin.com/in/chong-jerome/", '_blank')
+  window.open("https://www.linkedin.com/in/chong-jerome/", '_blank');
 }
 
 function linktoSurvey() 
 {
-  window.open("Language_Suggestion_survey/index.html", '_blank')
+  window.open("Language_Suggestion_survey/index.html", '_blank');
 }
 
 function BacktotopBtn() {
@@ -871,7 +879,7 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+};
 }
     // api
 var settings = {
@@ -884,7 +892,7 @@ var settings = {
       "x-apikey": "APIKEY",
       "cache-control": "no-cache"
     }
-  }
+  };
   
   $.ajax(settings).done(function (response) {
     console.log(response);
@@ -903,7 +911,7 @@ var settings = {
   },
   "processData": false,
   "data": JSON.stringify(jsondata)
-}
+};
 
 $.ajax(settings).done(function (response) {
   console.log(response);
@@ -922,9 +930,9 @@ var settings = {
   },
   "processData": false,
   "data": JSON.stringify(jsondata)
-}
+};
 
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
-})
+});
