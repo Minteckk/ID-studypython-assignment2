@@ -100,6 +100,10 @@ If this section grows too long, you may want to split it off into a separate fil
   <p> Scope </p>
   <p> File Handling </p>
   <p> File Write </p>
+  <p> File Read </p>
+  <p> User Input </p>
+  <p> Python Maths </p>
+  <p> If Else </p>
 <P>
 <br>
   <P>Jerome:</p>
@@ -113,11 +117,9 @@ If this section grows too long, you may want to split it off into a separate fil
   <p> Lists </p>
   <p> Tuples </p>
   <p> Dictionaries </p>
-  <p> If Else </p>
   <p> Arrays </p>
   <p> Python Modules </p>
-  <p> User Input </p>
-  <p> Python Maths </p>
+
   
 <h2> Credits </h2>
 <p>Content</p>
