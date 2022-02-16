@@ -4,6 +4,7 @@
 <p>The website makes use of badges, points and scoreboards to spark the learner's interests. </p>
 <p>There's also a quiz after each lesson to test the learner's understanding.</p>
 <p>There's also an embed IDE for learners to try out the codes and experiment it.</p>
+<p> GitHub Page Link: https://minteckk.github.io/ID-studypython-assignment2/ </p>
 
 <h2> Design Process </h2>
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
