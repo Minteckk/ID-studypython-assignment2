@@ -526,3 +526,18 @@ input[type=submit]:hover {
   }
 } 
 
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+  font-size: large;
+  color: orange;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+  background-color: gray;;
+}
