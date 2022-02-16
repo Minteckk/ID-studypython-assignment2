@@ -55,7 +55,13 @@ In addition, you may also use this section to discuss plans for additional featu
 <p>JavaScript (https://www.javascript.com/) </p>
 <p>The project uses JavaScript for interactions</p>
 <p>Bootstrap(https://getbootstrap.com/)</p>
-<p>The project uses Bootstrap for layout of the website 
+<p>The project uses Bootstrap for layout of the website </p>
+<p> Animate On Scroll (https://github.com/michalsnik/aos) </p>
+<p> The project uses Animate On Scroll library for animate contents for interactivity </p>
+<p> Typed.js (http://www.mattboldt.com/) (https://github.com/mattboldt/typed.js/) </p>
+<p> The project uses Typed.js for engagement to welcome users to the website. </p>
+<p> Normalize.css (https://necolas.github.io/normalize.css/8.0.1/normalize.css) </p>
+<p> The project uses normalize.css to reset the padding and margins for cross-device compatiability </p>
 
 <h2> Testing </h2>
 <p> For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as: </p>
