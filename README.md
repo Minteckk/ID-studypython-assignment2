@@ -1,6 +1,6 @@
 # ID-studypython-assignment2
 <p>This e-learning website is created to allows learners to learn and study python in a fun and interactive ways with interactivity and gamification concepts.</p>
-<p>This e-learning is targeted for anyone who wants how to code and programming in Python language.</p>
+<p>This e-learning is targeted for students and adults who wants to learn how to code and programming in Python language.</p>
 <p>The website makes use of badges, points and scoreboards to spark the learner's interests. </p>
 <p>There's also a quiz after each lesson to test the learner's understanding.</p>
 <p>There's also an embed IDE for learners to try out the codes and experiment it.</p>
@@ -116,6 +116,7 @@ Go to the home page and click on Sign up now </li>
 <p> Responsive Sidebar </p>
 <ul>
 <li> Try to resize the screen to below 600 px (mobile view) and verify that sidebar is in the form of a hamburger menu </li>
+</ul>
 <br>
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 <p> On Laptop: </p>
