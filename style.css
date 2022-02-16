@@ -165,7 +165,7 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 165px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -175,10 +175,10 @@ body {
 .sidebar a, .dropdown-btn {
   display: block;
   color: black;
-  padding: 16px;
+  padding: 12px;
   text-decoration: none;
 }
- 
+
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
@@ -188,8 +188,8 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
 
 .sidebar a.active {
@@ -220,6 +220,10 @@ div.content {
 }
 
 @media screen and (max-width: 400px) {
+  .sidebar {
+    text-align: center;
+    float: none;
+  }
   .sidebar a {
     text-align: center;
     float: none;
@@ -521,3 +525,4 @@ input[type=submit]:hover {
     background-attachment: scroll;
   }
 } 
+
