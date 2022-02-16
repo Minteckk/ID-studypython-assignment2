@@ -49,179 +49,243 @@
     <a href="user-input.html" class="w3-bar-item w3-button">User Input</a>
     <a href="file_handling.html" class="w3-bar-item w3-button">File Handling</a>
     <a href="maths.html" class="w3-bar-item w3-button">Python Maths</a>
-
+  
   </section>
   <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
-</header>
- 
-<div class="content">
-  <div class="parallax">
-    <h1>Welcome to the lesson on Python For Loops</h1>
-    <section class="flex-container">
-    <section class="flex-item-left"><p>For Loops</p></section>
-  </section>
-  <section class="flex-container">
-    <section class="flex-item-right"><p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).</p></section>
-    <section class="flex-item-left"><p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p></section>
-  </section>
-    <section class="flex-container">
-    <section class="flex-item-left"><p> Example: Print each fruit in a fruit list:
-    </p></section>
-  </section>
-       <section class="flex-container">
-       <section class="flex-item-left"><img src="images/for_loop.JPG" alt="syntax" style="width: 100%;"></section>
-       </section>
-       <section class="flex-container">
-        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl1" onmouseover="Loopsbtn5()" onmouseout="OutLoopsbtn5()">
-        Try it out yourself</a></section>
+  </header>
+  
+  <div class="content">
+    <div class="parallax">
+      <h1>Welcome to the lesson on Python For Loops</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>For Loops</p>
         </section>
-        <section class="flex-container"> 
-        <section class="flex-item-left"><p> The for loop does not require an indexing variable to set beforehand.</p></section>
-    </section>
-    <h1>Looping Through a String</h1>
-    <section class="flex-container">
-      <section class="flex-item-left"><p>Even strings are iterable objects, they contain a sequence of characters:</p></section>
-    </section>
-        <section class="flex-container">
-            <section class="flex-item-left"><p> Some Examples: Loop through the letters in the word "Johnny":
-            </p></section>
-          </section>
-        <section class="flex-container">
-            <section class="flex-item-left"><img src="images/loop_strings.JPG" alt="syntax" style="width: 100%;"></section>
-            </section>
-            <section class="flex-container">
-             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl2" onmouseover="Loopsbtn6()" onmouseout="OutLoopsbtn6()">
-            Try it out yourself</a></section>
-             </section> 
-
-        <h1>Break statement</h1>
-        <section class="flex-container">
-         <section class="flex-item-left"><p>With the break statement we can stop the loop before it has looped through all the items:</p>
-         </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right">
+          <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a
+            string).</p>
         </section>
-        <section class="flex-container">
-            <section class="flex-item-left"><p> Some Examples: Exit the loop when x is "cherry":
-            </p></section>
-          </section>
-        <section class="flex-container">
-            <section class="flex-item-left"><img src="images/loop_break.JPG" alt="syntax" style="width: 100%;"></section>
-            </section>
-            <section class="flex-container">
-                <section class="flex-item-left"><p> Some Examples: Exit the loop when x is "cherry", this time the break comes before the print:
-                </p></section>
-              </section>
-            <section class="flex-container">
-                <section class="flex-item-left"><img src="images/break_before_print.JPG" alt="syntax" style="width: 100%;"></section>
-                </section>
-            <section class="flex-container">
-             <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl3" onmouseover="Loopsbtn7()" onmouseout="OutLoopsbtn7()" >
+        <section class="flex-item-left">
+          <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Example: Print each fruit in a fruit list:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/for_loop.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl1"
+            onmouseover="Loopsbtn5()" onmouseout="OutLoopsbtn5()">
             Try it out yourself</a></section>
-             </section> 
-             <h1>Continue Statement</h1>
-             <section class="flex-container">
-                <section class="flex-item-left"><p> With the continue statement we can stop the current iteration of the loop, and continue with the next:
-                </p></section>
-              </section>
-             <section class="flex-container">
-                <section class="flex-item-left"><p> Some Examples: Do not print apple:
-                </p></section>
-              </section>
-             <section class="flex-container">
-                <section class="flex-item-left"><img src="images/continue_print.JPG" alt="syntax" style="width: 100%;"></section>
-                </section>
-                <section class="flex-container">
-                 <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl4" onmouseover="Loopsbtn8()" onmouseout="OutLoopsbtn8()">
-                 Try it out yourself </a></section>
-                 </section> 
-                 <h1>The range() Function</h1>
-                 <section class="flex-container">
-                    <section class="flex-item-left"><p> To loop through a set of code a specified number of times, we can use the range() function
-                    </p></section>
-                    <section class="flex-item-right"><p>The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.</p></section>
-                  </section>
-                 <section class="flex-container">
-                    <section class="flex-item-left"><p> Some Examples: Using the range() function:
-                    </p></section>
-                  </section>
-                 <section class="flex-container">
-                    <section class="flex-item-left"><img src="images/range_forloop.JPG" alt="syntax" style="width: 100%;"></section>
-                    </section>
-                  
-                    <section class="flex-container">
-                     <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl5" onmouseover="Loopsbtn8()" onmouseout="OutLoopsbtn8()">
-                      Try it out yourself </a></section>
-                     </section>
-                    <section class="flex-container">   
-                     <section class="flex-item-left"><p>The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding 
-                     a parameter: range(2, 6), which means values from 2 to 6 (but not including 6): </p></section>
-                    </section> 
-                    <section class="flex-container">
-                        <section class="flex-item-left"><p> Some Examples: Using the start parameter:
-                        </p></section>
-                      </section>
-                      <section class="flex-container">
-                        <section class="flex-item-left"><img src="images/range_start.JPG" alt="syntax" style="width: 100%;"></section>
-                        </section>
-                        <section class="flex-container">
-                        <section class="flex-item-left"><p>The range() function defaults to increment the sequence by 1, 
-                        however it is possible to specify the increment value by 
-                        adding a third parameter: range(2, 30, 3):</p></section>
-                    </section>
-                    <section class="flex-container">
-                        <section class="flex-item-left"><p> Some Examples: Increment the sequence with 3 (default is 1):
-                        </p></section>
-                      </section>
-                      <section class="flex-container">
-                        <section class="flex-item-left"><img src="images/for_loops_increment.JPG" alt="syntax" style="width: 100%;"></section>
-                        </section>
-
-                        <h1>Else in an For Loop</h1>
-                        <section class="flex-container">
-                           <section class="flex-item-left"><p> The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
-                           </p></section>
-                         </section>
-                        <section class="flex-container">
-                           <section class="flex-item-left"><p> Some Examples: Print all numbers from 0 to 5, and print a message when the loop has ended:
-                           </p></section>
-                         </section>
-                        <section class="flex-container">
-                           <section class="flex-item-left"><img src="images/range_end.JPG" alt="syntax" style="width: 100%;"></section>
-                           </section>
-                           <section class="flex-container">
-                            <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl6" onmouseover="Loopsbtn9()" onmouseout="OutLoopsbtn9()">
-                            Try it out yourself</a></section>
-                            </section>
-                           <section class="flex-container">   
-                            <section class="flex-item-left"><p>The else block will NOT be executed if the loop is stopped by a break statement.</p></section>
-                           </section> 
-                           <section class="flex-container">
-                               <section class="flex-item-left"><p> Some Examples: Break the loop when x is 3:
-                               </p></section>
-                             </section>
-                             <section class="flex-container">
-                               <section class="flex-item-left"><img src="images/else_break_loop.JPG" alt="syntax" style="width: 100%;"></section>
-                               </section>
-                               <section class="flex-container">
-                                <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl7" onmouseover="Loopsbtn10()" onmouseout="OutLoopsbtn10()">
-                                Try it out yourself</a></section>
-                                </section>
-                                <h1>Nested Loops</h1>
-                                <section class="flex-container">
-                                   <section class="flex-item-left"><p> A nested loop is a loop inside a loop.
-                                   </p></section>
-                                   <section class="flex-item-right"><p> The "inner loop" will be executed one time for each iteration of the "outer loop": </p></section>
-                                 </section>
-                                <section class="flex-container">
-                                   <section class="flex-item-left"><p> Some Examples: Print each adjective for every fruit:
-                                   </p></section>
-                                 </section>
-                                <section class="flex-container">
-                                   <section class="flex-item-left"><img src="images/for_loop_nested.JPG" alt="syntax" style="width: 100%;"></section>
-                                   </section>
-                                   <section class="flex-container">
-                                    <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl8" onmouseover="Loopsbtn11()" onmouseout="OutLoopsbtn11()">
-                                    Try it out yourself </a></section>
-                                    </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> The for loop does not require an indexing variable to set beforehand.</p>
+        </section>
+      </section>
+      <h1>Looping Through a String</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Even strings are iterable objects, they contain a sequence of characters:</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Loop through the letters in the word "Johnny":
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/loop_strings.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl2"
+            onmouseover="Loopsbtn6()" onmouseout="OutLoopsbtn6()">
+            Try it out yourself</a></section>
+      </section>
+  
+      <h1>Break statement</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>With the break statement we can stop the loop before it has looped through all the items:</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Exit the loop when x is "cherry":
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/loop_break.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Exit the loop when x is "cherry", this time the break comes before the print:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/break_before_print.JPG" alt="syntax" style="width: 100%;">
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl3"
+            onmouseover="Loopsbtn7()" onmouseout="OutLoopsbtn7()">
+            Try it out yourself</a></section>
+      </section>
+      <h1>Continue Statement</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> With the continue statement we can stop the current iteration of the loop, and continue with the next:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Do not print apple:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/continue_print.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl4"
+            onmouseover="Loopsbtn8()" onmouseout="OutLoopsbtn8()">
+            Try it out yourself </a></section>
+      </section>
+      <h1>The range() Function</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> To loop through a set of code a specified number of times, we can use the range() function
+          </p>
+        </section>
+        <section class="flex-item-right">
+          <p>The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by
+            default), and ends at a specified number.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Using the range() function:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/range_forloop.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+  
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl5"
+            onmouseover="Loopsbtn8()" onmouseout="OutLoopsbtn8()">
+            Try it out yourself </a></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>The range() function defaults to 0 as a starting value, however it is possible to specify the starting value
+            by adding
+            a parameter: range(2, 6), which means values from 2 to 6 (but not including 6): </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Using the start parameter:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/range_start.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>The range() function defaults to increment the sequence by 1,
+            however it is possible to specify the increment value by
+            adding a third parameter: range(2, 30, 3):</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Increment the sequence with 3 (default is 1):
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/for_loops_increment.JPG" alt="syntax" style="width: 100%;">
+        </section>
+      </section>
+  
+      <h1>Else in an For Loop</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Print all numbers from 0 to 5, and print a message when the loop has ended:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/range_end.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl6"
+            onmouseover="Loopsbtn9()" onmouseout="OutLoopsbtn9()">
+            Try it out yourself</a></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>The else block will NOT be executed if the loop is stopped by a break statement.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Break the loop when x is 3:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/else_break_loop.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl7"
+            onmouseover="Loopsbtn10()" onmouseout="OutLoopsbtn10()">
+            Try it out yourself</a></section>
+      </section>
+      <h1>Nested Loops</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> A nested loop is a loop inside a loop.
+          </p>
+        </section>
+        <section class="flex-item-right">
+          <p> The "inner loop" will be executed one time for each iteration of the "outer loop": </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Some Examples: Print each adjective for every fruit:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/for_loop_nested.JPG" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl8"
+            onmouseover="Loopsbtn11()" onmouseout="OutLoopsbtn11()">
+            Try it out yourself </a></section>
+      </section>
       <h1>End of Python For Loops</h1>
       <section class="flex-container">
         <section class="flex-item-left"><p>You have learned For Loops in simple terms. Let's proceed on to Quiz.</p></section>
@@ -230,6 +294,11 @@
         <section class="flex-item-right"><a href="For-Loop-Quiz/index.html" target="_blank" class="btn" id="quiz7" onmouseover="Quizbtn7()" onmouseout="Quizmouseout7()">
         Quiz Time!</a></section>
         </section>
+        <section class="flex-container">
+          <section class="flex-item-right"><a href="functions.html" class="btn">
+           Next Lesson
+           </a></section>
+       </section>
   <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
   </div>
   <!-- FOOTER -->
