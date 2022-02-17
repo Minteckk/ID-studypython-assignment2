@@ -19,6 +19,7 @@ function infocus(x) {
     x.style.background = "white";
   }
   
+  
   // This function is used to focus out the current fields that being focus 
   // and move the focus to the next fields.
   function outfocusEmail(x) {
@@ -1195,7 +1196,6 @@ function SignUpForm() {
 $(document).ready(function () {
     // RestDB api key
     const APIKEY = "61fe3faf6a791555010217e6";
-
 
 // api
 var settings = {
