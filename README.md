@@ -17,7 +17,7 @@ User Stories:
 <p> Video Pitch : </p>
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
-
+<h2>Project Demo - Final Product </h2>
 <h2> Features </h2>
 <b>Existing Features</b>
 <p>Feature 1 - Animate On Scroll :
