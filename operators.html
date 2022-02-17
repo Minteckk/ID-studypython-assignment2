@@ -54,7 +54,11 @@
   </section>
   <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
   </header>
-  
+  <div class="header">
+    <div class="progress-container">
+       <div class="progress-bar" id="myBar"></div>
+     </div>  
+    </div>
   <div class="content">
     <div class="parallax">
       <h1>Welcome to the lesson on Python operators</h1>
@@ -67,24 +71,23 @@
         <section class="flex-item-right">
           <p>Operators are use to perform operations and calculations between values and variables.</p>
         </section>
+      </section>
+      <section class="flex-container">
         <section class="flex-item-left">
           <p>There are 6 types of operators.</p>
         </section>
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-          <p>
               <ol>
                   <li>Arithmetic operators</li>
-                  <li>Assignment operators</li>
+                  <li>Assignment operators</li>      
                   <li>Comparison operators</li>
                   <li>Logical operators</li>
                   <li>Identity operators</li>
                   <li>Membership operators</li>
-                    
-              </ol>
-          </p>
-        </section>
+                </ol>
+              </section>
       </section>
       <h1>Arithmetic operators</h1>
       <section class="flex-container">
@@ -100,7 +103,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-            <p>
                 <table>
                     <tr>
                         <th style="width:10%">Operators</th>
@@ -143,7 +145,6 @@
                         <td> a // b</td>
                     </tr>
                 </table>
-            </p>
         </section>
       </section>
       <section class="flex-container">
@@ -160,7 +161,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-          <p>
             <table>
                 <tr>
                     <th style="width:15%">Operators</th>
@@ -213,12 +213,11 @@
                     <td> a = a >> 2</td>
                 </tr>
                 <tr>
-                    <td><<=</td>
-                    <td>a <<= 2</td>
-                    <td> a = a << 2</td>
+                    <td>&lt;&lt;=</td>
+                    <td>a &lt;&lt;= 2</td>
+                    <td> a = a &lt;&lt; 2</td>
                 </tr>
             </table>
-          </p>
         </section>
       </section>
       
@@ -231,7 +230,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-          <p>
             <table>
                 <tr>
                     <th style="width:20%">Operators</th>
@@ -254,9 +252,9 @@
                     <td> a > b</td>
                 </tr>
                 <tr>
-                    <td><</td>
+                    <td>&lt;</td>
                     <td>is lesser than</td>
-                    <td> a < b</td>
+                    <td> a &lt; b</td>
                 </tr>
                 <tr>
                     <td>>=</td>
@@ -264,12 +262,11 @@
                     <td> a >= b</td>
                 </tr>
                 <tr>
-                    <td><=</td>
+                    <td>&lt;=</td>
                     <td>is less than or equal to</td>
-                    <td> a <= b</td>
+                    <td> a &lt;= b</td>
                 </tr>
             </table>
-          </p>
         </section>
       </section>
       
@@ -282,7 +279,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-          <p>
             <table>
                 <tr>
                     <th style="width:10%">Operators</th>
@@ -305,7 +301,6 @@
                     <td> not(a = 5 or b = 0)</td>
                 </tr>
             </table>
-          </p>
         </section>
       </section>
       
@@ -319,7 +314,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-          <p>
             <table>
                 <tr>
                     <th style="width:10%">Operators</th>
@@ -337,7 +331,6 @@
                     <td> a is not b</td>
                 </tr>
             </table>
-          </p>
         </section>
       </section>
       <section class="flex-container">
@@ -345,7 +338,6 @@
       </section>
       <section class="flex-container">
         <section class="flex-item-left">
-            <p>
                 <table>
                     <tr>
                         <th style="width:10%">Operators</th>
@@ -363,7 +355,6 @@
                         <td> a not in b</td>
                     </tr>
                 </table>
-            </p>
         </section>
       </section>
       
@@ -372,11 +363,11 @@
         <section class="flex-item-left"><p>You have learned operators in simple terms. Let's proceed on to Quiz.</p></section>
       </section>
       <section class="flex-container">
-        <section class="flex-item-right"><a href="For-Loop-Quiz/index.html" target="_blank" class="btn" id="quiz7" onmouseover="Quizbtn7()" onmouseout="Quizmouseout7()">
+        <section class="flex-item-right"><a href="Operators-Quiz/index.html" target="_blank" class="btn" id="quiz7" onmouseover="Quizbtn7()" onmouseout="Quizmouseout7()">
         Quiz Time!</a></section>
         </section>
         <section class="flex-container">
-          <section class="flex-item-right"><a href="functions.html" class="btn">
+          <section class="flex-item-right"><a href="lists.html" class="btn">
            Next Lesson
            </a></section>
        </section>
@@ -407,10 +398,6 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-
-
-
 </script>
-
 </body>
 </html>
