@@ -1,17 +1,23 @@
+/* style for body */ 
 html body {
+  /* font used */
   font-family: 'Inter', 'Poppins', sans-serif;
   /* background image by SVGBackgrounds.com */
   background-color: #ffaa00;
   background-image: url("images/background.jpg");
+  /* set background-attachment to fixed */
   background-attachment: fixed;
   background-size: cover;
 }
 
+/* styles for h1 */
 h1 {
+  /* align the text to center and set color to white */
   text-align: center;
   color: white;
 }
 
+/* styles for h2 */
 h2 {
   text-align: center;
   color:#D6312E;
