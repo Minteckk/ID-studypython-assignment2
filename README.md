@@ -24,7 +24,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 It is a library used to animate and fade in the content on scroll.</p>  
 <p>Feature 2 - Responsive Web Design :
 Project is responsive in both web and mobile view. </p>
-<p> Feature 3 - Quizzes</p> 
+<p> Feature 3 - Quizzes (Gamification Feature 1)</p> 
 <p> Quiz is available after learner/students completes the lesson.</p>
 <p> Feature 4 - Typed.js <p>
 <p> Typing effects for welcome to StudyPython </p>
@@ -34,7 +34,8 @@ Project is responsive in both web and mobile view. </p>
 <p> Feature 7 - Onfocus and Onfocusout events for forms </p>
 <p> Onfocus - used to let the current fields the user is typing in to get focused by styling the background colour.</p>
 <p> Onfocusout - allows focus out the current fields that being focus and move the focus to the next fields.</p>
-
+<p> Feature 8 - scroll indicator </p>
+<p> This scroll indicator is a progress bar that lets the students/learners know how far they are into the lesson </p> 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h2> Features Left to Implement </h2>
@@ -125,6 +126,11 @@ Go to the home page and click on Sign up now </li>
 <li> Try to resize the screen to below 600 px (mobile view) and verify that sidebar is in the form of a hamburger menu </li>
 </ul>
 <br>
+<p> Scroll indicator </p>
+<ul>
+ <li> Try to scroll and verify the scroll indicator is working and it shows how far the page is scrolled </p>
+ </ul>
+<br>
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 <p> On Laptop: </p>
 <ul>
@@ -160,6 +166,8 @@ If this section grows too long, you may want to split it off into a separate fil
   <li> Program button hover effects and interactions </li>
   <li> Complete Contact page </li>
   <li> Create Language Suggestion Survey for learners to suggest languages they wish to learn next </li>
+  <li> Create Scroll indicator for tutorials pages </li>
+  <li> Did Quizzes for tutorials lessons </p>
   </ol>
   <br>
   <p> Lesson Prepared: </p>
@@ -185,8 +193,13 @@ If this section grows too long, you may want to split it off into a separate fil
   <P>Jerome:</p>
   <p> Role : </p>
   <p> Second Front-end Developer </p>
+  <p> API Developer </p>
   <br>
   <p> Task : </p>
+  <ol>
+  <li>Implement RestDB api</li>
+  <li> Completed the tutorials lesson stated below </li>
+  </ol>
   <br>
   <p> Lesson Prepared: </p>
   <ol>
@@ -253,3 +266,4 @@ If this section grows too long, you may want to split it off into a separate fil
 <p> Parallax Scrolling Effects : https://www.w3schools.com/howto/howto_css_parallax.asp </p>
 <p> Responsive Flexbox : Modified with own code with references from W3schools. </p>
 <p> from: https://www.w3schools.com/css/css3_flexbox_responsive.asp </p>  
+<p> Scroll Indicator: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_indicator </p>
