@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="artworks/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>StudyPython</title>
+    <!-- Bootstrap core CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="bootstrap-5.1.3-dist/navbars/navbar.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<header>
+  <section class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="Sidenav">
+    <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+    <a href="tutorial.html" class="w3-bar-item w3-button">Introduction</a>
+    <a href="variables.html" class="w3-bar-item w3-button">Variables</a>
+    <a href="datatypes.html" class="w3-bar-item w3-button">Data Types</a>
+    <a href="numbers.html" class="w3-bar-item w3-button">Numbers</a>
+    <a href="casting.html" class="w3-bar-item w3-button">Casting</a>
+    <a href="string.html" class="w3-bar-item w3-button">Strings</a>
+    <a href="boolean.html" class="w3-bar-item w3-button">Boolean</a>
+    <a href="operators.html" class="w3-bar-item w3-button">Operators</a>
+    <a href="lists.html" class="w3-bar-item w3-button">Lists</a>
+    <a href="tuples.html" class="w3-bar-item w3-button">Tuples</a>
+    <a href="dictionaries.html" class="w3-bar-item w3-button">Dictionaries</a>
+    <a href="if-else.html" class="w3-bar-item w3-button">If-Else</a>
+    <a href="while_loop.html" class="w3-bar-item w3-button">While Loops</a>
+    <a href="for_loop.html" class="w3-bar-item w3-button">For Loops</a>
+    <a href="functions.html" class="w3-bar-item w3-button">Functions</a>
+    <a href="arrays.html" class="w3-bar-item w3-button">Arrays</a>
+    <a href="scope.html" class="w3-bar-item w3-button">Scope</a>
+    <a href="modules.html" class="w3-bar-item w3-button">Modules</a>
+    <a href="user-input.html" class="w3-bar-item w3-button">User Input</a>
+    <a href="file_handling.html" class="w3-bar-item w3-button">File Handling</a>
+    <a href="maths.html" class="w3-bar-item w3-button">Python Maths</a>
+  
+  </section>
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  </header>
+  <div class="header">
+    <div class="progress-container">
+       <div class="progress-bar" id="myBar"></div>
+     </div>  
+    </div>
+  <div class="content">
+    <div class="parallax">
+      <h1>Welcome to the lesson on Python Dictionaries</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Dictionaries</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right">
+          <p>A dictionary is another collection of data and elements, which store values in pairs.</p>
+        </section>
+        <section class="flex-item-left">
+          <p>Unlike Lists and Tuples, dictionaries do not allow for duplicate data.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Example:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_creation.jpg" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl1"
+            onmouseover="Loopsbtn5()" onmouseout="OutLoopsbtn5()">
+            Try it out yourself</a></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Dictionaries are created with the curly bracket in place of the round brackets. Variables or more commonly known as keys , are called and given a value / data with colon seperating them.</p>
+        </section>
+      </section>
+      <h1>Accessing items stored in the dictionary</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>As seen from the previous example , variables can be called by using dictionary["key"] </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><h1>keys() function</h1></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><p>The keys() function can be used to return all the keys within a dictionary.</p></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_keys.jpg" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl2"
+            onmouseover="Loopsbtn6()" onmouseout="OutLoopsbtn6()">
+            Try it out yourself</a></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <h1>values() function</h1>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Using the values() function will return all the values stored inside the dictionary</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_values.jpg" alt="syntax" style="width: 100%;">
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <h1>items() function</h1>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Using the items() function will return all the items stored inside the dictionary, which icnludes keys.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_items.jpg" alt="syntax" style="width: 100%;">
+        </section>
+      </section>
+
+  
+      <h1>Updating a dictionary</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Using the update() function , values in the dictionary can be changed.</p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>Example:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_update.jpg" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>The update function is not only limited to changing the value of a key, it can also add a whole new key into the dictionary.
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_update2.jpg" alt="syntax" style="width: 100%;">
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl3"
+            onmouseover="Loopsbtn7()" onmouseout="OutLoopsbtn7()">
+            Try it out yourself</a></section>
+      </section>
+      <h1>Nested dictionaries</h1>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Nested dictionaries is an advanced feature in python. It is essentially Object oriented programming. This can be used in the following example to created various objects with different attributes tied to thay object.
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p> Example:
+          </p>
+        </section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left"><img src="images/Dict_nested.jpg" alt="syntax" style="width: 100%;"></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="https://www.jdoodle.com/a/4idu" target="_blank" class="btn" id="fl4"
+            onmouseover="Loopsbtn8()" onmouseout="OutLoopsbtn8()">
+            Try it out yourself </a></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-left">
+          <p>By using calling 3 dictionaries , animal1 , 2 and 3, i am able to create a fourth dictionary which acts as a class. And with that , my animal 1 2 and 3 are all linked up to a class called pets.
+          </p>
+        </section>
+      </section>
+      
+      <h1>End of Python Dictionaries</h1>
+      <section class="flex-container">
+        <section class="flex-item-left"><p>You have learned Dictionaries in simple terms. Let's proceed on to Quiz.</p></section>
+      </section>
+      <section class="flex-container">
+        <section class="flex-item-right"><a href="For-Loop-Quiz/index.html" target="_blank" class="btn" id="quiz7" onmouseover="Quizbtn7()" onmouseout="Quizmouseout7()">
+        Quiz Time!</a></section>
+        </section>
+        <section class="flex-container">
+          <section class="flex-item-right"><a href="functions.html" class="btn">
+           Next Lesson
+           </a></section>
+       </section>
+  <link href="bootstrap-5.1.3-dist/footers/footers.css" rel="stylesheet">
+  </div>
+  <!-- FOOTER -->
+<div class="container">
+  <footer class="py-3-my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-color">Home</a></li>
+      <li class="nav-item"><a href="tutorial.html" class="nav-link px-2 footer-color">Tutorial</a></li>
+      <li class="nav-item"><a href="leaderboard.html" class="nav-link px-2 footer-color">Leaderboard</a></li>
+      <li class="nav-item"><a href="contactus.html" class="nav-link px-2 footer-color">Contact Us</a></li>
+    </ul>
+    <p class="text-center footer-color">&copy; 2022 StudyPython, Ltd</p>
+  </footer>
+</div>
+</div>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</body>
+</html>
