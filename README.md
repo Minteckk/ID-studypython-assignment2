@@ -17,7 +17,9 @@ User Stories:
 <p> Video Pitch : </p>
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
-
+<h2>Project Demo - Final Product </h2>
+<img src="images/Demo.gif" alt="demo">
+<p> Link: https://minteckk.github.io/ID-studypython-assignment2/ </p>
 <h2> Features </h2>
 <b>Existing Features</b>
 <p>Feature 1 - Animate On Scroll :
@@ -36,14 +38,15 @@ Project is responsive in both web and mobile view. </p>
 <p> Onfocusout - allows focus out the current fields that being focus and move the focus to the next fields.</p>
 <p> Feature 8 - scroll indicator </p>
 <p> This scroll indicator is a progress bar that lets the students/learners know how far they are into the lesson </p> 
+<p> Lottie Animation: Projects utilize some animation in index page </p>
+
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h2> Features Left to Implement </h2>
 <p>Scoreboard - In progress</p>
 <p>Points -  Planning to be obtained from RestDB api</p>
 <p>Badges - to be obtained from RestDB api</p>
-<p>Quiz - In progress </p>
-<p>Lottie Animation - In progress</p>
+
 
 <h2>Technologies Used </h2>
 <p>In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.</p>
@@ -64,7 +67,8 @@ In addition, you may also use this section to discuss plans for additional featu
 <p> The project uses Typed.js for engagement to welcome users to the website. </p>
 <p> Normalize.css (https://necolas.github.io/normalize.css/8.0.1/normalize.css) </p>
 <p> The project uses normalize.css to reset the padding and margins for cross-device compatiability </p>
-
+<p> Lottie (https://lottiefiles.com/) </p>
+<p> The project uses Lottie for animation and engagement </p>
 <h2> Testing </h2>
 <p> For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as: </p>
 <p>
