@@ -554,7 +554,7 @@ th, td {
 
 /* styles for tr */
 tr:nth-child(even) {
-  background-color: lightgray;
+  background-color: white;
 }
 
 /* styles for tr */
