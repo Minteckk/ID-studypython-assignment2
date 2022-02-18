@@ -1217,7 +1217,6 @@ var settings = {
   });
 
 // api
-var jsondata = {"field1": "xyz","field2": "abc"};
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -1239,7 +1238,6 @@ $.ajax(settings).done(function (response) {
 });
 
 // api - PUT 
-var jsondata = {"field1": "new value","field2": "xxx"};
 var settings = {
   "async": true,
   "crossDomain": true,
