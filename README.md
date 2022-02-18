@@ -14,7 +14,7 @@ Provide us insights about your design process, focusing on who this website is f
 <p> We believe this e-learning is suited for beginners to learn python. </p>
 User Stories:
 <p>As a learner, I want to learn programming language such as Python , so that I can achieve my goal to be Web Developer/Programmer.</p>
-<p> Video Pitch : </p>
+<p> Video Pitch : https://drive.google.com/file/d/1qM_xuFxZG9mV2SBC0U8gq8vfC95HVgP2/view?usp=sharing </p>
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 <h2>Project Demo - Final Product </h2>
