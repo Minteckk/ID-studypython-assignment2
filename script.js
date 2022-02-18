@@ -1196,63 +1196,152 @@ function SignUpForm() {
 $(document).ready(function () {
     // RestDB api key
     const APIKEY = "61fe3faf6a791555010217e6";
+    getStudents();
+    $("#update-leaderboard-container").hide();
+    $("#add-update-msg").hide();
 
-// api
-var settings = {
-    "async": true,
-    "crossDomain": true,
-    // get api from the url
-    "url": "https://assignmentapi-7328.restdb.io/rest/students",
-    // GET api data
-    "method": "GET",
-    "headers": {
-      "content-type": "application/json",
-      "x-apikey": "APIKEY",
-      "cache-control": "no-cache"
-    }
-  };
-  
-  $.ajax(settings).done(function (response) {
-    console.log(response);
+    // Create our submit form listener
+    $("#student-submit").on("click", function (e) {
+      // prevent default action of the button 
+       e.preventDefault();
+
+       // retrieve form data
+       let studentName = $("#student-name").val();
+       let studentPoints = $("#student-points").val();
+       let studentBadges = $("#student-badges").val();
+
+       // get form values when user clicks on send
+       let jsondata = {
+         "name": studentName,
+         "point": studentPoints,
+         "badge": studentBadges   
+       };
+
+       // Create  AJAX settings.
+       let settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://assignmentapi-7328.restdb.io/rest/students",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "x-apikey": APIKEY,
+          "cache-control": "no-cache"
+        },
+        "processData": false,
+        "data": JSON.stringify(jsondata),
+        "beforeSend": function(){
+          $("#student-submit").prop( "disabled", true);
+          // clear our form using the form id and triggering it's reset feature
+          $("#add-leaderboard-form").trigger("reset");
+       }
+      }
+      // Send our ajax request over to the DB and print response of the RESTDB storage to console.
+      $.ajax(settings).done(function (response) {
+        console.log(response);
+        
+        $("#student-submit").prop( "disabled", false);
+
+        $("#add-update-msg").show().fadeOut(3000);
+
+        //update our table 
+        getStudents();
+    });
   });
+     
+     // a function to allow us to retrieve all the information in our leaderboard
+     //by default we only retrieve 20 results
+     function getStudents(limit = 20, all = true) {
+           // Create our AJAX settings
+           let settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "https://assignmentapi-7328.restdb.io/rest/students",
+            "method": "GET",
+            "headers": {
+              "content-type": "application/json",
+              "x-apikey": APIKEY,
+              "cache-control": "no-cache"
+            },
+           }
+           // Make our AJAX calls
+           $.ajax(settings).done(function (response) {
+      
+            let content = "";
+      
+            for (var i = 0; i < response.length && i < limit; i++) {
+            
+              //using our template literal method using backticks
+              //we want to add on previous content at the same time
+              content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
+              <td>${response[i].point}</td>
+              <td>${response[i].badge}</td>
+              `;
+      
+            }
+      
+            // Update our HTML content
+            //let's dump the content into our table body
+            $("#student-list tbody").html(content);
+      
+            $("#total-students").html(response.length);
+          });
+        }
+        // Create our update listener
+        $("#student-list").on("click", ".update", function(e){
+          e.preventDefault();
+          //update our update form values
+          let studentName = $(this).data("name");
+          let studentPoints = $(this).data("point");
+          let studentBadges = $(this).data("badge");
+          let studentId = $(this).data("id");
 
-// api
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  // get api from the url
-  "url": "https://assignmentapi-7328.restdb.io/rest/students",
-  // POST api data to RESTDB.
-  "method": "POST",
-  "headers": {
-    "content-type": "application/json",
-    "x-apikey": "APIKEY",
-    "cache-control": "no-cache"
-  },
-  "processData": false,
-  "data": JSON.stringify(jsondata)
-};
+          // Load in our data from the selected row and add it to our update leaderboard form 
+          $("#update-student-name").val(studentName);
+          $("#update-student-points").val(studentPoints);
+          $("#update-student-badges").val(studentBadges);
+          $("update-student-id").val(studentId);
+          $("#update-leaderboard-container").show();
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
+        });
+        // Here we load in our contact form data
+        //Update form listener
+        $("#update-student-submit").on("click", function (e) {
+             e.preventDefault();
+             //retrieve all my update form values
+             let studentName = $("#update-student-name").val();
+             let studentPoints = $("#update-student-points").val();
+             let studentBadges = $("#update-student-badges").val();
+             let studentId = $("#update-student-id").val();
 
-// api - PUT 
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://assignmentapi-7328.restdb.io/rest/students/{id}",
-  "method": "PUT",
-  "headers": {
-    "content-type": "application/json",
-    "x-apikey": "APIKEY",
-    "cache-control": "no-cache"
-  },
-  "processData": false,
-  "data": JSON.stringify(jsondata)
-};
+             // We call our update form function which makes an AJAX call to our RESTDB to update the selected information
+             updateForm(studentId,studentName,studentPoints,studentBadges);
+        });
+        // function that makes an AJAX call and process it 
+        //UPDATE Based on the ID chosen
+        function updateForm(id,studentName,studentPoints,studentBadges)
+        {
+          var jsondata = { "name": studentName, "point": studentPoints, "badge": studentBadges };
+          var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": `https://assignmentapi-7328.restdb.io/rest/students/${id}`,
+            "method": "PUT",
+            "headers": {
+              "content-type": "application/json",
+              "x-apikey": APIKEY,
+              "cache-control": "no-cache"
+            },
+            "processData": false,
+            "data": JSON.stringify(jsondata)
+          }
+          // send our AJAX request and hide the update leaderboard form
+          $.ajax(settings).done(function (response) {
+            console.log(response);
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-});
+            $("#update-leaderboard-container").fadeOut(5000);
+            //update our leaderboard table
+            getStudents();
+          });
+        }
+     })
