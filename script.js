@@ -1144,7 +1144,7 @@ function linktoLinkedIn() {
 // is clicked. it redirects using window.open and _blank will open it in a new tab. 
 function linktoLinkedInDev2()
 {
-  window.open("https://www.linkedin.com/in/chong-jerome/", '_blank');
+  window.open("https://www.linkedin.com/in/jerome-chong-a32a13210/", '_blank');
 }
 // function used to redirect user to the external survey when the language suggestion is clicked.
 // _blank will open survey in a new tab 
