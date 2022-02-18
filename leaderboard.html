@@ -65,12 +65,64 @@
       <th>Points</th>
       <th>Badges Attained</th>
     </thead>
-    <!-- This will be filled with information later -->
-    <tbody></tbody>
+    
+    <tbody>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tbody>
   </table>
 </section>
 </section>
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script>
+      $(document).ready(function () {
+        const APIkey = "61fe3faf6a791555010217e6"
+        getStudents();
+
+        //retrieve data
+        let Name = $("#studentname").val()
+        let Points = $("#studentpoints").val()
+        let Badges = $("#studentbadges").val()
+
+        let jsondata = {
+        "name": Name,
+        "points": Points,
+        "badges": Badges
+        };
+
+        let settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://assignmentapi-7328.restdb.io/rest/students",
+        "method": "POST", 
+        "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIkey,
+        "cache-control": "no-cache"
+      },
+        "processData": false,
+        "data": JSON.stringify(jsondata),
+        }
+
+        function getStudents(limit = 10, all = true) {
+
+          //[STEP 7]: Create our AJAX settings
+          let settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "https://assignmentapi-7328.restdb.io/rest/students",
+          "method": "GET",
+          "headers": {
+          "content-type": "application/json",
+          "x-apikey": APIkey,
+          "cache-control": "no-cache"
+          },
+          }
+
+        }
+      })
+    </script>
   </body>
 </html>
