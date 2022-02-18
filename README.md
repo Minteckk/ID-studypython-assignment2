@@ -28,24 +28,27 @@ It is a library used to animate and fade in the content on scroll.</p>
 Project is responsive in both web and mobile view. </p>
 <p> Feature 3 - Quizzes (Gamification Feature 1)</p> 
 <p> Quiz is available after learner/students completes the lesson.</p>
-<p> Feature 4 - Typed.js <p>
+<p> Feature 4 - Leaderboard (Gamification Feature 2 + RestDB API)
+<p> Scoreboard is extracted from RestDB API and the scoreboard is gamification feature that allows the students to track their progress and ranking </p> 
+<p> Scoreboard consists the (Gamification Feature 3) points and (Gamified Feature 4) badges they obtained as well as their name </p>
+<p> Feature 5 - Typed.js <p>
 <p> Typing effects for welcome to StudyPython </p>
-<p> Feature 5 - Parallax Scrolling Effect </p>
+<p> Feature 6 - Parallax Scrolling Effect </p>
 <p> Apply Parallax effects when scrolling </p>
-<p> Feature 6 - Back to Top button - allows users to go back to the top of the page once they have finished browsing the page </p>
-<p> Feature 7 - Onfocus and Onfocusout events for forms </p>
+<p> Feature 7 - Back to Top button - allows users to go back to the top of the page once they have finished browsing the page </p>
+<p> Feature 8 - Onfocus and Onfocusout events for forms </p>
 <p> Onfocus - used to let the current fields the user is typing in to get focused by styling the background colour.</p>
 <p> Onfocusout - allows focus out the current fields that being focus and move the focus to the next fields.</p>
-<p> Feature 8 - scroll indicator </p>
+<p> Feature 9 - scroll indicator </p>
 <p> This scroll indicator is a progress bar that lets the students/learners know how far they are into the lesson </p> 
-<p> Lottie Animation: Projects utilize some animation in index page </p>
+<p> Feature 10 - Lottie Animation: Projects utilize some animation in index page </p>
+<p> Feature 11 -  Back to top Button: This allows students to navigate back to the top of the page </p>
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 <h2> Features Left to Implement </h2>
-<p>Scoreboard - In progress</p>
-<p>Points -  Planning to be obtained from RestDB api</p>
-<p>Badges - to be obtained from RestDB api</p>
+<p> Completed All features! :) </p> 
 
 
 <h2>Technologies Used </h2>
@@ -69,6 +72,8 @@ In addition, you may also use this section to discuss plans for additional featu
 <p> The project uses normalize.css to reset the padding and margins for cross-device compatiability </p>
 <p> Lottie (https://lottiefiles.com/) </p>
 <p> The project uses Lottie for animation and engagement </p>
+<p> RestDB API (https://restdb.io/)
+<p> The project uses RESTDB API to extract information from our Database to the Leaderboard page </p>
 <h2> Testing </h2>
 <p> For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as: </p>
 <p>
@@ -135,6 +140,12 @@ Go to the home page and click on Sign up now </li>
  <li> Try to scroll and verify the scroll indicator is working and it shows how far the page is scrolled </p>
  </ul>
 <br>
+<p> RestDB API in Leaderboard page </p>
+<ul>
+ <li> Try to enter the quiz leaderboard form and verify that the data appears in the table </li>
+ <li> Verified that the RESTDB API is working </li>
+</ul> 
+<br>
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 <p> On Laptop: </p>
 <ul>
@@ -156,6 +167,7 @@ If this section grows too long, you may want to split it off into a separate fil
   <p> Role: </p>
   <p> Website Designer </p>
   <p> Front-end Developer </p>
+  <p> API Developer </p>
   <br>
   <p> Task: </p>
   <ol>
@@ -172,6 +184,7 @@ If this section grows too long, you may want to split it off into a separate fil
   <li> Create Language Suggestion Survey for learners to suggest languages they wish to learn next </li>
   <li> Create Scroll indicator for tutorials pages </li>
   <li> Did Quizzes for tutorials lessons </p>
+  <li>Implement RestDB api that is used in Leaderboard page</li>
   </ol>
   <br>
   <p> Lesson Prepared: </p>
@@ -197,11 +210,9 @@ If this section grows too long, you may want to split it off into a separate fil
   <P>Jerome:</p>
   <p> Role : </p>
   <p> Second Front-end Developer </p>
-  <p> API Developer </p>
   <br>
   <p> Task : </p>
   <ol>
-  <li>Implement RestDB api</li>
   <li> Completed the tutorials lesson stated below </li>
   </ol>
   <br>
