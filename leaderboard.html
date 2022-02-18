@@ -67,9 +67,7 @@
     </thead>
     
     <tbody>
-      <td></td>
-      <td></td>
-      <td></td>
+      
     </tbody>
   </table>
 </section>
@@ -108,8 +106,8 @@
 
         function getStudents(limit = 10, all = true) {
 
-          //[STEP 7]: Create our AJAX settings
-          let settings = {
+          
+          /*let settings = {
           "async": true,
           "crossDomain": true,
           "url": "https://assignmentapi-7328.restdb.io/rest/students",
@@ -119,10 +117,46 @@
           "x-apikey": APIkey,
           "cache-control": "no-cache"
           },
-          }
+          }*/
+          var settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "https://assignmentapi-7328.restdb.io/rest/students",
+          "method": "GET",
+          "headers": {
+          "content-type": "application/json",
+          "x-apikey": "<your CORS apikey here>",
+          "cache-control": "no-cache"
+  }
+}
+
+          
+
 
         }
+        $.ajax(settings).done(function (response) {
+      
+        let content = "";
+
+        for (var i = 0; i < response.length && i < limit; i++) {
+
+          content = `${content}<tr id='${response[i]._id}'><td>${response[i].Name}</td>
+        <td>${response[i].Points}</td>
+        <td>${response[i].Badges}</td>
+        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='.flex-container' class='container mt-5' data-id='${response[i]._id}' data-Name='${response[i].Name}' data-Points='${response[i].Points}' data-Badges='${response[i].Badges}'>Update</a></td></tr>`;
+
+      }
+
+     
+        $("#student-list tbody").html(content);
+
+        
+    });
+      
+
+
       })
+
     </script>
   </body>
 </html>
